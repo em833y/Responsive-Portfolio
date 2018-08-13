@@ -29,6 +29,7 @@ h1, h2, h3, h4, li{
     border-bottom: #dddddd;
     border-style: none none solid none;
     border-width: 0px 0px 2px 0px;
+    z-index: 100
 }
 
 .name {
@@ -176,4 +177,25 @@ footer p{
     padding: 0px;
     text-align: center;
 
+}
+
+@media screen and (max-width:960px) {
+    p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:768px) {
+    p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    }
+}
+
+@media screen and (max-width:640px) {
+    p {
+    font-size: 1rem;
+    line-height: 1;
+    }
 }
